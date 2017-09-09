@@ -148,7 +148,7 @@ static NSString *const _ASPhotosURLQueryKeyCropHeight = @"crop_h";
 
 #pragma mark NSObject
 
-- (BOOL)isEqual:(id)object
+- (BOOL)isEqualTo:(id)object
 {
   if (![object isKindOfClass:ASPhotosFrameworkImageRequest.class]) {
     return NO;
